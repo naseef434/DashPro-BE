@@ -1,0 +1,68 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+env/
+venv/
+ENV/
+venv.bak/
+
+# Django specific
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Static and media files
+/static/
+/media/
+/staticfiles/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Python egg files
+*.egg
+*.egg-info/
+.eggs/
+
+# Pipenv files
+Pipfile.lock
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Test artifacts
+*.cover
+*.py,cover
+.hypothesis/
+*.pytest_cache/
+
+# MyPy
+.mypy_cache/
+dmypy.json
+dmypy.log
